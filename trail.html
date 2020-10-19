@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url("https://i.pinimg.com/originals/85/76/3b/85763bce6e23c631e643e9c154cd2453.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main {
+            color: ivory;
+            text-align: center;
+            font-family: Georgia;
+            font-style: italic;
+            font-size: 20px
+        }
+        .sub {
+            color:black;
+            text-align: center;
+            font-family: Gill Sans;
+            font-style: italic;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .k {
+            color: black;
+            font-family: Arial;
+        }
+        .line {
+            color: orange;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .inp {
+            font-size: 20px;
+            width: 300px;
+            border-radius: 5px;
+            height: 30px;
+            padding: 5px;
+            background-color: whitesmoke;
+        }
+        .em {
+            color: rgb(42, 163, 5);
+            font-size: 30px;
+        }       
+        .op {
+            color:cyan;
+            font-size: 20px;
+        }
+        .skt {
+            font-size: 18px;
+            font-weight: bolder;
+            color: cyan;
+            margin-top: 450px;
+            margin-left: 10px;
+            padding-right:20px;
+            padding-left: unset;
+        }
+        .skt:hover {
+            text-decoration: underline;
+        }      
+
+        .txt {
+            color: white;
+            font-size: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+            margin-right: 250px;
+            font-weight: bolder;
+            font-family: Helvetica;
+        }        
+        .btn {
+            font-size: 20px;
+            width: 300px;
+            border-radius: 5px;
+            height: 30px;
+            padding: 2px;
+            margin-left: 1000px;
+            padding-bottom: 40px;
+            background-color: yellowgreen;
+            font-size: 25px;
+            font-weight: bolder;
+            bottom: 30px;
+            position: absolute;
+            ;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>design</title>
+</head> 
+<body>
+    <div>
+        <div class="main">
+            <h1>
+                DARSHAN RAVAL'S CONCERT
+                <hr width="100%" align="center" />
+            </h1>
+        </div>
+        <img src="https://www.tellychakkar.com/sites/www.tellychakkar.com/files/styles/display_665x429/public/images/movie_image/2020/04/03/Darshan-Raval.jpg?itok=E2wv5EAN" align="right" height=300px width=380px border="2px" />
+        <h2 class="sub">
+            GET READY DARSHANERS
+            <p class="k">
+                <b>
+                Music that clears head, heals heart and lifts our spirits
+                </b>
+            </p>
+        </h2>
+        <h1 class="line">
+            <b>FILL THE DEATILS AND BOOK YOUR TICKETS</b> </h1>
+        <div class="container">
+            <div>
+                <input class="inp" placeholder="Name" /> <br>
+                <input class="inp" placeholder="Phone number " /> <br>
+                <input class="inp" placeholder="Age " />
+                <h2 class="em"> <b>Email</b></h2>
+                <input class="inp" placeholder="ex: myname@gamil.com " />
+                <h3 class="op"> Choose Seats</h3>
+                <select class="inp" seats=" choice ">
+                    <option   seat="front "> front row</option>
+                    <option  seat="middle ">middle row</option>
+                   <option  seat="last "> last row</option>
+                </select>
+                <br>
+            </div>
+            <a class="skt" " href="# "> click here for more info </a>
+           
+            <div class="txt ">
+                <h2> <u>BEST OF DR</u></h2>
+                <h3> #EK TARFA</h3>
+                <h3> #TU MILEYA</h3>
+                <h3> #TERI AANKHON MEIN></h3>
+                <h3> #BHULA DIYA></h3>
+                <h3> #SAB TUM HO</h3>
+            </div>
+        </div>
+    </div>
+    <button class="btn "> Check Your Tickets</button>
+</body>
+</html>
